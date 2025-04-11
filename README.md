@@ -1,6 +1,6 @@
 # Prorek Akhir Submission Proyek Klasifikasi Gambar
 
-Proyek ini adalah bagian dari [Belajar Pengembangan Machine Learning Dicoding](https://www.dicoding.com/academies/185/tutorials/37663). Proyek ini bertujuan untuk membuat model klasifikasi gambar yang mampu mengenali jenis sampah menggunakan teknik pembelajaran mesin.
+Proyek ini adalah bagian dari [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). Proyek ini bertujuan untuk membuat model klasifikasi gambar yang mampu mengenali jenis sampah menggunakan teknik pembelajaran mesin.
 
 ## Deskripsi Proyek
 
