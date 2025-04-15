@@ -1,48 +1,48 @@
-# Prorek Akhir Submission Proyek Klasifikasi Gambar
+# Final Project Submission for Image Classification
 
-Proyek ini adalah bagian dari [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). Proyek ini bertujuan untuk membuat model klasifikasi gambar yang mampu mengenali jenis sampah menggunakan teknik pembelajaran mesin.
+This project is part of the [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). The goal of this project is to develop an image classification model capable of recognizing different types of waste automatically.
 
-## Deskripsi Proyek
+## Project Description
 
-Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convolutional Neural Network (CNN) dan arsitektur Xception. Tujuan utamanya adalah membangun model yang dapat mengklasifikasikan jenis sampah secara akurat untuk mendukung pengelolaan sampah yang lebih baik.
+This project utilizes a Deep Learning approach by leveraging the Convolutional Neural Network (CNN) model and the Xception architecture. The main objective is to build a model capable of classifying waste into specific categories.
 
-### Fitur Utama
-- **Dataset**: Dataset yang digunakan dapat ditemukan di [Kaggle Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification).
-- **Model**: Dibangun menggunakan CNN dan Xception.
-- **Format Model**:
+### Key Features
+- **Dataset**: The dataset used can be found at [Kaggle Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification).
+- **Model**: Built using CNN and Xception.
+- **Model Formats**:
   - `.h5` (HDF5)
   - `SavedModel` (TensorFlow)
-  - `TF-Lite` (untuk perangkat mobile)
-  - `TFJS` (untuk aplikasi berbasis web)
-- **Jupyter Notebook**: Implementasi proyek tersedia di [Kaggle Notebook](https://www.kaggle.com/code/angguncaksono/submission-garbage-classification).
+  - `TF-Lite` (for mobile devices)
+  - `TFJS` (for web-based applications)
+- **Jupyter Notebook**: The project implementation is available on [Kaggle Notebook](https://www.kaggle.com/code/angguncaksono/submission-garbage-classification).
 
-## Cara Menggunakan
+## How to Use
 
-1. **Instalasi Dependencies**
-   Pastikan Anda telah menginstal dependencies yang diperlukan:
+1. **Install Dependencies**
+   Ensure you have installed the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Pengunduhan Dataset**
-   Unduh dataset dari [tautan ini](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) dan letakkan di direktori yang sesuai.
+2. **Download the Dataset**
+   Download the dataset from [this link](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) and place it in the appropriate directory.
 
-3. **Training Model**
-   Jalankan notebook untuk melatih model:
+3. **Train the Model**
+   Run the notebook to train the model:
    ```bash
    jupyter notebook
    ```
 
-4. **Ekspor Model**
-   Model yang telah dilatih dapat diekspor ke berbagai format untuk digunakan di platform yang berbeda.
+4. **Export the Model**
+   The trained model can be exported into various formats for use on different platforms.
 
-## Struktur Direktori
+## Directory Structure
 
-- `notebooks/`: Berisi file Jupyter Notebook untuk training dan evaluasi.
-- `models/`: Berisi model yang disimpan dalam berbagai format.
-- `data/`: Direktori tempat dataset disimpan.
+- `notebooks/`: Contains Jupyter Notebook files for training and evaluation.
+- `models/`: Stores the models in various formats.
+- `data/`: Directory where the dataset is stored.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
 - Python
 - TensorFlow
@@ -50,18 +50,21 @@ Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convol
 - Scikit-learn
 - Jupyter Notebook
 
-## Kontribusi
+## Contributing
 
-Kontribusi sangat diterima! Jika Anda ingin berkontribusi, silakan fork repository ini, buat branch baru, dan ajukan pull request.
+Contributions are welcome! If you want to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
 
 ```bash
 git clone https://github.com/alrescha79-cmd/garbage-classification.git
-git checkout -b fitur-baru
+```
+
+```bash
+git checkout -b new-feature
 ```
 
 ## Author
 
-Proyek ini dibuat oleh:
+This project was created by:
 - **[Anggun Caksono](https://www.github.com/alrescha79-cmd)**
 
-Jika Anda menemukan masalah, jangan ragu untuk membuka [issue baru](https://github.com/alrescha79-cmd/garbage-classification/issues).
+If you encounter any issues, feel free to open a [new issue](https://github.com/alrescha79-cmd/garbage-classification/issues).
