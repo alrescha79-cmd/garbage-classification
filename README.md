@@ -2,6 +2,9 @@
 
 This project is part of the [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). The goal of this project is to develop an image classification model capable of recognizing different types of waste automatically.
 
+See the [master](https://github.com/alrescha79-cmd/garbage-classification/tree/master) Branch to see all source code.
+
+
 ## Project Description
 
 This project utilizes a Deep Learning approach by leveraging the Convolutional Neural Network (CNN) model and the Xception architecture. The main objective is to build a model capable of classifying waste into specific categories.
