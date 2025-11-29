@@ -1,4 +1,4 @@
-# Final Project Submission for Image Classification
+# Final Project Submission for Image Classification 
 
 This project is part of the [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). The goal of this project is to develop an image classification model capable of recognizing different types of waste automatically.
 
